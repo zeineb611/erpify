@@ -51,7 +51,7 @@
                   <header class="text-center mb-5 text-white">
                     <div class="row">
                       <div class="col-lg-7 mx-auto">
-                        <h1>Choice our offers</h1>
+                        <h1><?php echo $lang['choice'] ?></h1>
                         
                       </div>
                     </div>
@@ -60,34 +60,35 @@
               
               
               
-                  <div class="row text-center align-items-end ">
+                  <div class="row text-center ">
                     <!-- Pricing Table-->
                     <div class="col-lg-4 mb-5 mb-lg-0 ">
                       <div class="bg-white p-5 rounded-lg shadow">
-                        <h1 class="h6 text-uppercase font-weight-bold mb-4">Free </h1>
+                        <h1 class="h6 text-uppercase font-weight-bold mb-4"><?php echo $lang['free'] ?></h1>
                         <h2 class="h1 font-weight-bold">£0
                           <br>
-                          <span class="text-small font-weight-normal ml-2">Valid for 15 days</span></h2>
-              
-                        <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                          <span class="text-small font-weight-normal ml-2"><?php echo $lang['15'] ?></span></h2>
+       
+                    
               
                         <ul class="list-unstyled my-5 text-small text-left">
                           <li class="mb-3">
-                            <i class="fa fa-check mr-2 text-primary"></i> Sales and purchasing management</li>
+                            <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['ph4'] ?></li>
                           <li class="mb-3">
-                            <i class="fa fa-check mr-2 text-primary"></i> Payment follow-up</li>
+                            <i class="fa fa-check mr-2 text-primary"></i><?php echo $lang['ph5'] ?></li>
                           <li class="mb-3">
-                            <i class="fa fa-check mr-2 text-primary"></i> Inventory management</li>
+                            <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['ph6'] ?></li>
                             <li class="mb-3">
-                              <i class="fa fa-check mr-2 text-primary"></i>Dashboard</li>
+                              <i class="fa fa-check mr-2 text-primary"></i><?php echo $lang['ph7'] ?></li>
                               <li class="mb-3">
-                                <i class="fa fa-check mr-2 text-primary"></i>1 Company</li>
+                                <i class="fa fa-check mr-2 text-primary"></i><?php echo $lang['ph8'] ?></li>
                                 <li class="mb-3">
-                                  <i class="fa fa-check mr-2 text-primary"></i>1 Administrator</li>
+                                  <i class="fa fa-check mr-2 text-primary"></i><?php echo $lang['ph9'] ?></li>
                                   <li class="mb-3">
-                                    <i class="fa fa-check mr-2 text-primary"></i>Basic technical support</li>
+                                    <i class="fa fa-check mr-2 text-primary"></i><?php echo $lang['ph10'] ?></li>
                                     <br>
-                                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+                                    <br>
+                                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill"><?php echo $lang['subscribe'] ?></a>
 
                           
                     </ul>
@@ -95,30 +96,31 @@
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0 ">
                       <div class="bg-white p-5 rounded-lg shadow">
-                        <h1 class="h6 text-uppercase font-weight-bold mb-4">Premium</h1>
-                          <h2 class="h1 font-weight-bold">£100<span class="text-small font-weight-normal ml-2"><br>/ month  </span></h2>
+                        <h1 class="h6 text-uppercase font-weight-bold mb-4"><?php echo $lang['premium'] ?></h1>
+                          <h2 class="h1 font-weight-bold">£100<span class="text-small font-weight-normal ml-2"><br><?php echo $lang['month'] ?></span></h2>
+                          <br>
               <br>
               <br>
-                        <div class="custom-separator my-4 mx-auto bg-primary"></div>
+              <br>
+              <br>
+                          <div class="custom-separator my-4 mx-auto bg-primary"></div>
               
                         <ul class="list-unstyled my-5 text-small text-left">
+                    
                           <li class="mb-3">
-                            <i class="fa fa-check mr-2 text-primary"></i> personalization of the account</li>
+                            <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['ph1'] ?></li>
                             <li class="mb-3">
-                              <i class="fa fa-check mr-2 text-primary"></i> Premium technical support</li>
+                              <i class="fa fa-check mr-2 text-primary"></i><?php echo $lang['ph2'] ?></li>
                             <li class="mb-3">
-                              <i class="fa fa-check mr-2 text-primary"></i> All features FREE</li>
-                            <li class="mb-3">
-                              <i class="fa fa-check mr-2 text-primary"></i> Nam libero tempore</li>
-                            <li class="mb-3">
-                              <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                              <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['ph3'] ?></li>
+                                    <br>
                                     <br>
                                     <br>
                                     <br>
                                     <br>
                                    
                                    
-                                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+                                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill"><?php echo $lang['subscribe'] ?></a>
 
                           
                     </ul>
@@ -126,31 +128,32 @@
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0 ">
                       <div class="bg-white p-5 rounded-lg shadow">
-                        <h1 class="h6 text-uppercase font-weight-bold mb-4">Premium</h1>
-                        <h2 class="h1 font-weight-bold">£800<span class="text-small font-weight-normal ml-2"><br>/        
-                          year  </span></h2>
+                        <h1 class="h6 text-uppercase font-weight-bold mb-4"><?php echo $lang['premium'] ?></h1>
+                        <h2 class="h1 font-weight-bold">£800<span class="text-small font-weight-normal ml-2"><br><?php echo $lang['year'] ?> </span></h2>
+              <br>
+              <br>
+              <br>
               <br>
               <br>
                         <div class="custom-separator my-4 mx-auto bg-primary"></div>
               
                         <ul class="list-unstyled my-5 text-small text-left">
                           <li class="mb-3">
-                            <i class="fa fa-check mr-2 text-primary"></i> personalization of the account</li>
+                            <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['ph1'] ?></li>
                             <li class="mb-3">
-                              <i class="fa fa-check mr-2 text-primary"></i> Premium technical support</li>
+                              <i class="fa fa-check mr-2 text-primary"></i><?php echo $lang['ph2'] ?></li>
                             <li class="mb-3">
-                              <i class="fa fa-check mr-2 text-primary"></i> All features FREE</li>
-                            <li class="mb-3">
-                              <i class="fa fa-check mr-2 text-primary"></i> Nam libero tempore</li>
-                            <li class="mb-3">
-                              <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                              <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['ph3'] ?></li>
+                              <br>
+                              
+                            
                                     <br>
                                     <br>
                                     <br>
                                     <br>
                                    
                                    
-                                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+                                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill"><?php echo $lang['subscribe'] ?></a>
 
                           
                     </ul>

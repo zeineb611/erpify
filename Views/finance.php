@@ -49,21 +49,34 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <img class="img-fluid " src="img/about.png" alt="">
-                </div>
-                <div class="col-lg-7">
+                <div class="">
+                
                     <div class="text-left mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;"><?php echo $lang['a'] ?></h5>
+                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;"><?php echo $lang['f'] ?></h5>
                         
                     </div>
                     <ul class="list-unstyled my-5 text-small text-left">
                         <li class="mb-3">
-                          <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['a1'] ?></li>
+                          <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['f1'] ?></li>
+                       
+                          
+
+                        
+                  </ul>
+                    
+                </div>
+            </div>
+      
+        <div class="">
+                
+                    <div class="text-left mb-4">
+                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;"><?php echo $lang['f2'] ?></h5>
+                        
+                    </div>
+                    <ul class="list-unstyled my-5 text-small text-left">
                         <li class="mb-3">
-                          <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['a2'] ?></li>
-                        <li class="mb-3">
-                          <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['a3'] ?></li>
+                          <i class="fa fa-check mr-2 text-primary"></i> <?php echo $lang['f3'] ?></li>
+                       
                           
 
                         

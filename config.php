@@ -9,7 +9,7 @@
       if (!isset(self::$pdo)) {
         try {
           self::$pdo = new PDO(
-            'mysql:host=localhost;dbname=eripfy',
+            'mysql:host=localhost;dbname=erpify',
             'root',
             '',
             [

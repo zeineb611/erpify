@@ -33,11 +33,11 @@
     <div class="container-fluid page-header" style="margin-bottom: 9px;">
         <div class="container">
             <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
-                <h3 class="display-4 text-white text-uppercase">About</h3>
+                <h3 class="display-4 text-white text-uppercase"><?php echo $lang['about'] ?></h3>
                 <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                    <p class="m-0 text-uppercase"><a class="text-white" href=""><?php echo $lang['home'] ?></a></p>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">About</p>
+                    <p class="m-0 text-uppercase"><?php echo $lang['about'] ?></p>
                 </div>
             </div>
         </div>
@@ -53,10 +53,10 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="text-left mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
+                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;"><?php echo $lang['about'] ?></h5>
                         
                     </div>
-                   <h3> <p>ERPIFY is your business management solution, which offers you a reliable implementation that allows you to properly manage all of your business processes and is also adaptable to your project.</p></h3>
+                   <h3> <p><?php echo $lang['aboutp'] ?></p></h3>
                     
                 </div>
             </div>

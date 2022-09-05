@@ -16,20 +16,20 @@
                 <div class="col-lg-5">
                     <div class="card border-0">
                         <div class=" text-center p-4">
-                            <h1 class="m-0">Sign In </h1>
+                            <h1 class="m-0"><?php echo $lang['sign'] ?> </h1>
                         </div>
                         <div class="card-body rounded-bottom bg-primary p-5">
                             <form>
                                 <div class="form-group">
-                                    <input type="text" class="form-control border-0 p-4" placeholder="Your name"  >
+                                    <input type="text" class="form-control border-0 p-4" placeholder="<?php echo $lang['name'] ?>"  >
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control border-0 p-4" placeholder="Your email"  >
+                                    <input type="email" class="form-control border-0 p-4" placeholder="<?php echo $lang['email'] ?>"  >
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control border-0 p-4" placeholder="password" >
+                                    <input type="password" class="form-control border-0 p-4" placeholder="<?php echo $lang['password'] ?>" >
                                 </div>
-                                    <button><a href ="formulaire.php" type="submit">Sign In </a></button>
+                                    <button><a href ="formulaire.php" type="submit"><?php echo $lang['sign'] ?> </a></button>
                                     
                                 </div>
                             </form>

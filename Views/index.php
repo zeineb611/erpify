@@ -57,7 +57,7 @@
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             
-                            <h2 class="display-3 text-white mb-md-4">ERPIFY offers you the best ERP Cloud solution</h2>
+                            <h2 class="display-3 text-white mb-md-4"><?php echo $lang['erpify'] ?></h2>
                            
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                     <img class="position-relative w-100" src="img/registration.png" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h2 class="display-3 text-white mb-md-4">ERPIFY offers you the best ERP Cloud solution</h2>
+                            <h2 class="display-3 text-white mb-md-4"><?php echo $lang['erpify'] ?></h2>
                            
                            
                         </div>
@@ -76,7 +76,7 @@
                     <img class="position-relative w-100" src="img/image1.png" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h2 class="display-3 text-white mb-md-4">ERPIFY offers you the best ERP Cloud solution</h2>
+                            <h2 class="display-3 text-white mb-md-4"><?php echo $lang['erpify'] ?></h2>
                            
                         </div>
                     </div>
@@ -96,10 +96,10 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="text-left mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
+                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;"><?php echo $lang['about'] ?></h5>
                         
                     </div>
-                    <p>ERPIFY is your business management solution, which offers you a reliable implementation that allows you to properly manage all of your business processes and is also adaptable to your project.</p>
+                    <p><?php echo $lang['aboutp'] ?></p>
                     
                 </div>
             </div>
@@ -116,83 +116,7 @@
     
 
 
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-5">
-                <h2 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Meet our team</h2>
-                
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
+ 
 
    
 

@@ -37,21 +37,21 @@
                 <div class="col-lg-5">
                     <div class="card border-0">
                         <div class=" text-center p-4">
-                            <h1 class="m-0">Sign In </h1>
+                            <h1 class="m-0"><?php echo $lang['sign'] ?> </h1>
                         </div>
                         <div class="card-body rounded-bottom bg-primary p-5">
                             <form>
                                 
                                 <div class="form-group">
-                                    <input type="email" class="form-control border-0 p-4" placeholder="Your email" required="required" />
+                                    <input type="email" class="form-control border-0 p-4" placeholder="<?php echo $lang['email'] ?>" required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control border-0 p-4" placeholder="password" required="required" />
+                                    <input type="password" class="form-control border-0 p-4" placeholder="<?php echo $lang['password'] ?>" required="required" />
                                 </div>
                               
                               
-                                    <button class="btn btn-dark btn-block border-0 py-3" type="submit">Sign In </button>
-                                    <a href ="new.php" class="nav-link2">create account</a>
+                                    <button class="btn btn-dark btn-block border-0 py-3" type="submit"><?php echo $lang['sign'] ?> </button>
+                                    <a href ="new.php" class="nav-link2"><?php echo $lang['create'] ?></a>
                                 </div>
                             </form>
                         </div>

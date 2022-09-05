@@ -1,3 +1,8 @@
+<?php
+    include "langue.php";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,9 +38,12 @@
         <div><img class="img-fluid2" src="img/logo.png" alt=""></div>
     </div>
         
-    
+    <div class=" py-2 px-4 ml-auto d-none d-lg-block" > 
+    <a href="?lang=en"><?php echo $lang['lang_en'] ?></a>
+ <a href="?lang=fr"><?php echo $lang['lang_fr'] ?></a>
+ 
    
-    
+</div> 
 </div>
     
 </div>

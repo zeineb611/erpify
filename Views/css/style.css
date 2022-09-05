@@ -10537,5 +10537,10 @@ cursor: pointer;
   width:97%;}
   .name-item div label {
   display:block;
-  padding-bottom:5px;
-  }}
+  padding-bottom:5px;}
+  h4 {
+    text-align: right;
+    position: relative;
+    left: 800px;
+  }
+  }

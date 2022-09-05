@@ -97,42 +97,42 @@ if (
       <div class="form-step form-step-active">
         <div class="input-group">
        
-        <input type="text" class="form-control" name="name" id="name" placeholder="enter the name of client" required>
+        <input type="text" class="form-control" name="name" id="name" placeholder="<?php echo $lang['nameClient'] ?>" required>
         </div>
         <div class="input-group">
        
-        <input type="text" class="form-control" name="phone" id="phone" minlength="8" maxlength="8" placeholder="enter his/her phone" required>
+        <input type="text" class="form-control" name="phone" id="phone" minlength="8" maxlength="8" placeholder="<?php echo $lang['phoneClient'] ?>" required>
         </div>
         <div class="input-group">
        
-         <input type="text" class="form-control" name="address" id="address"  placeholder=" enter the address of client" required>
+         <input type="text" class="form-control" name="address" id="address"  placeholder=" <?php echo $lang['addressClient'] ?>" required>
 </div>
         <div class="">
-          <a href="#" class="btn btn-next ">Next</a>
+          <a href="#" class="btn btn-next "><?php echo $lang['next'] ?></a>
         </div>
       </div>
       <div class="form-step">
       <div class="input-group">
    
-       <input type="text" class="form-control" name="campany" id="campany"  placeholder=" enter campany's name"required>
+       <input type="text" class="form-control" name="campany" id="campany"  placeholder=" <?php echo $lang['nameCampany'] ?>"required>
   </div>
         <div class="input-group">
           
-          <input type="text" name="phonec" id="phonec"   minlength="8" maxlength="8" placeholder=" enter campany's phone" required>
+          <input type="text" name="phonec" id="phonec"   minlength="8" maxlength="8" placeholder=" <?php echo $lang['phoneCampany'] ?>" required>
         </div>
         <div class="input-group">
         
-         <input type="text" class="form-control" name="addressc" id="addressc" placeholder=" enter the address of campany " required>
+         <input type="text" class="form-control" name="addressc" id="addressc" placeholder="<?php echo $lang['addressCampany'] ?>" required>
 </div>
         <div class="btns-group">
-          <a href="#" class="btn btn-prev">Previous</a>
-          <a href="#" class="btn btn-next">Next</a>
+          <a href="#" class="btn btn-prev"><?php echo $lang['previous'] ?></a>
+          <a href="#" class="btn btn-next"><?php echo $lang['next'] ?></a>
         </div>
       </div>
       <div class="form-step">
         <div class="input-group">
        
-        <input type="text" class="form-control" name="referance" id="referance" placeholder="referance of order" required>
+        <input type="text" class="form-control" name="referance" id="referance" placeholder="<?php echo $lang['referanceorder'] ?>" required>
         </div>
          <div class="input-group">
        
@@ -140,12 +140,12 @@ if (
          </div>
          <div class="input-group">
                        
-                            <input type="text" class="form-control" name="clientn" id="clientn" placeholder="clientnumber"  required>
+                            <input type="text" class="form-control" name="clientn" id="clientn" placeholder="<?php echo $lang['clientid'] ?>"  required>
                         </div>
                
         <div class="btns-group">
           <a href="#" class="btn btn-prev">Previous</a>
-          <button type="submit" value="Envoyer" class="btn btn-primary" >Submit</button>
+          <button type="submit" value="Envoyer" class="btn btn-primary" ><?php echo $lang['send'] ?></button>
        
         
         </div>

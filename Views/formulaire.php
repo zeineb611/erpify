@@ -9,12 +9,13 @@
   <body>
 
     <?php include "navbar.php"; ?> 
+    <br>
     <div class="testbox">
       <form>
        
         <br/>
         <fieldset>
-          <legend>Complete your profil</legend>
+          <legend><?php echo $lang['complete'] ?></legend>
 
           
         <br/>
@@ -22,35 +23,29 @@
          
            <div class="colums">
           <div class="item">
-            <label> First Name<span>*</span></label>
+            <label> <?php echo $lang['first'] ?><span>*</span></label>
             <input  type="text" >
           </div>
           <div class="item">
-            <label > Last Name<span>*</span></label>
+            <label ><?php echo $lang['last'] ?><span>*</span></label>
             <input  type="text" >
           </div>
  <div class="item">
-            <label>Address 1<span>*</span></label>
+            <label><?php echo $lang['city'] ?><span>*</span></label>
             <input  type="text" >
           </div>
-  <div class="item">
-            <label>Address 2<span>*</span></label>
-            <input  type="text">
-          </div>
+ 
   <div>
-            <label >City<span>*</span></label>
+            <label ><?php echo $lang['state'] ?><span>*</span></label>
             <input  type="text">
           </div>
  <div >
-            <label >State<span>*</span></label>
+            <label ><?php echo $lang['addresh'] ?><span>*</span></label>
             <input type="text">
           </div>
-                             <div class="item">
-            <label >Email Address<span>*</span></label>
-            <input type="text" />
-          </div>
+                             
           <div class="item">
-            <label >Phone<span>*</span></label>
+            <label ><?php echo $lang['phone'] ?><span>*</span></label>
             <input  type="tel">
           </div>
           
@@ -58,7 +53,7 @@
           </div>
                 </fieldset>
         <div class="btn-block">
-          <button ><a href="ajouterFacture.php">Submit</a></button>
+          <button ><a href="ajouterFacture.php"><?php echo $lang['save'] ?></a></button>
         </div>
       </form>
     </div>

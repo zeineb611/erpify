@@ -109,30 +109,30 @@ if (
 
                         <div class="form-group">
                             
-                            <input type="text" class="form-control" name="description" id="description" placeholder="description" required >
+                            <input type="text" class="form-control" name="description" id="description" placeholder="<?php echo $lang['descriptionproduct'] ?>" required >
                         </div>
 
                        
 
                         <div class="form-group">
                           
-                            <input type="text" class="form-control" name="unit" id="unit"  placeholder="unit price" required >
+                            <input type="text" class="form-control" name="unit" id="unit"  placeholder="<?php echo $lang['priceproduct'] ?>" required >
                         </div>
 
                         
 
                         <div class="form-group">
                            
-                            <input type="number" class="form-control" name="quantity" id="quantity" placeholder="quantity " required >
+                            <input type="number" class="form-control" name="quantity" id="quantity" placeholder="<?php echo $lang['quantityproduct'] ?>" required >
                         </div>
 
 
                         <div class="form-group">
-                            <label for="referancep">referance</label>
-                            <input type="text" class="form-control" name="referancep" id="referancep" placeholder="referance de commande " required >
+                           
+                            <input type="text" class="form-control" name="referancep" id="referancep" placeholder="<?php echo $lang['referanceorder'] ?>" required >
                         </div>
                     
-                        <center><button type="submit" value="Envoyer" class="btn btn-primary" >Ajouter</button>
+                        <center><button type="submit" value="Envoyer" class="btn btn-primary" ><?php echo $lang['save'] ?> </button>
                         <a href ="afficherproduct.php" class="nav-link2">create account</a></center>
                        
                         </div>

@@ -32,7 +32,7 @@
         <div class="col-lg-7 col-md-12">
             <div class="row">
                 <div class="col-md-6 mb-5">
-                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Get In Touch</h5>
+                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;"><?php echo $lang['touch'] ?></h5>
                     <p><i class="fa fa-phone-alt mr-2"></i>+216 25 412 389</p>
                     <p><i class="fa fa-envelope mr-2"></i>contact@erpify.app</p>
                     <div class="d-flex justify-content-start mt-4">
@@ -45,27 +45,27 @@
                     <div  id="google_translate_element"></div>
                 </div>
                 <div class="col-md-6 mb-5">
-                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our features</h5>
+                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;"><?php echo $lang['features'] ?></h5>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-white mb-2" href="facturation.php"><i class="fa fa-angle-right mr-2"></i>Facturation</a>
-                        <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Human resources</a>
-                        <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Inventory management</a>
-                        <a class="text-white mb-2" href="accountacy.php"><i class="fa fa-angle-right mr-2"></i>accountancy</a>
-                        <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Financial management</a>
-                        <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>SEO</a>
+                        <a class="text-white mb-2" href="facturation.php"><i class="fa fa-angle-right mr-2"></i><?php echo $lang['facturation'] ?></a>
+          
+                        <a class="text-white mb-2" href="inventory.php"><i class="fa fa-angle-right mr-2"></i><?php echo $lang['inventory'] ?></a>
+                        <a class="text-white mb-2" href="accountacy.php"><i class="fa fa-angle-right mr-2"></i><?php echo $lang['accountancy'] ?></a>
+                        <a class="text-white mb-2" href="finance.php"><i class="fa fa-angle-right mr-2"></i><?php echo $lang['financial'] ?></a>
+
                     </div>
                     
                 </div>
             </div>
         </div>
         <div class="col-lg-5 col-md-12 mb-5">
-            <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Newsletter</h5>
-            <p>The company Erpify processes the data collected in order to follow up on your request to subscribe to the newsletter. To learn more about the management of your data and your rights, please click here.</p>
+            <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;"><?php echo $lang['newsletter'] ?></h5>
+            <p><?php echo $lang['p'] ?></p>
             <div class="w-100">
                 <div class="input-group">
-                    <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
+                    <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="<?php echo $lang['email'] ?>">
                     <div class="input-group-append">
-                        <button class="btn btn-primary px-4">validate</button>
+                        <button class="btn btn-primary px-4"><?php echo $lang['validate'] ?></button>
                         
                         
                     </div>
@@ -79,11 +79,7 @@
     </div>
 </div>
 
-<script>
-    function googleTranslateElementInit(){
-        new google.translate.TranslateElement ({pageLanguage : 'en'},'google_translate_element');
-    }
-</script>
+
 </div>
 <!-- Footer End -->
 
